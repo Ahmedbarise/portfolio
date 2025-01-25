@@ -1,0 +1,203 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #2d3250;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section */
+#header {
+    background-color: #424769;;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67e22;
+}
+
+/* Services Section */
+#services {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item {
+    background-color: #f4f4f4;
+    padding: 30px;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.portfolio-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    width: 45%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.portfolio-item h3 {
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+
+.portfolio-item p {
+    font-size: 1.2rem;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    margin-bottom: 30px;
+}
+
+.testimonial-item p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.testimonial-item h3 {
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #424769;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-list {
+        flex-direction: column;
+    }
+
+    .service-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .portfolio-gallery {
+        flex-direction: column;
+    }
+
+    .portfolio-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
